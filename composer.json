@@ -15,6 +15,7 @@
     "nnx-member/user": "*",
     "nnx-member/organization": "*"
   },
+  
   "require-dev": {
     "fabpot/php-cs-fixer": "~1.11.0",
     "phpunit/phpunit": "~4.8.0",
