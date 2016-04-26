@@ -23,7 +23,7 @@
     "satooshi/php-coveralls": "~1.0.0",
    }, 
    "psr-4": {
-      "Nnx\\App\\All-in-one\\": "src/"
+      "NnxApp\\All-in-one\\": "src/"
     },
    "classmap": [
       "./Module.php",
@@ -32,8 +32,8 @@
   },
    "autoload-dev": {
      "psr-4": {
-       "Nnx\\App\\All-in-one\\PhpUnit\\Test\\": "test/phpunit/tests",
-       "Nnx\\App\\All-in-one\\PhpUnit\\TestData\\": "test/phpunit/_files"
+       "NnxApp\\All-in-one\\PhpUnit\\Test\\": "test/phpunit/tests",
+       "NnxApp\\All-in-one\\PhpUnit\\TestData\\": "test/phpunit/_files"
     },
     "classmap": [
       "./test/phpunit/Bootstrap.php",
