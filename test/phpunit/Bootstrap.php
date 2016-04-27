@@ -4,7 +4,7 @@
  * @author  Plitakov Dmitry  <plitakov94@gmail.com>
  */
  
-namespace NnxApp\All-in-one\PhpUnit\Test;
+namespace NnxApp\All\in\one\PhpUnit\Test;
 
 use Zend\Loader\AutoloaderFactory;
 use Zend\Loader\StandardAutoloader;
