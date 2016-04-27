@@ -3,7 +3,6 @@
  * @link    https://github.com/nnx-skeleton/nnx-app-all-in-one
  * @author  Plitakov Dmitry  <plitakov94@gmail.com>
  */
- 
 namespace NnxApp\All\in\one\PhpUnit\Test;
 
 use Zend\Loader\AutoloaderFactory;
