@@ -10,10 +10,10 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "nnx-member/member": "@dev",
-    "nnx-member/core": "@dev",
-    "nnx-member/user": "@dev",
-    "nnx-member/organization": "@dev"
+    "nnx-member/member": "dev-master",
+    "nnx-member/core": "dev-master",
+    "nnx-member/user": "dev-master",
+    "nnx-member/organization": "dev-master"
   },
   
   "require-dev": {
