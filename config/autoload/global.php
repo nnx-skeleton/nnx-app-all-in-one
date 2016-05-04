@@ -16,10 +16,10 @@ return [
         'driver' => [
             'orm_default' => [
                 'drivers' => [
-                    'Nnx\Member\Organization\Entity\Member' => 'NnxMemberOrganizationEntityMember',
-                    'Nnx\Member\Organization\Entity\Organization' => 'NnxMemberOrganizationEntityOrganization',
-                    'Nnx\Member\Organization\Entity\User' => 'NnxMemberOrganizationEntityUser',
-                    'Nnx\Member\User\Entity\User' => 'NnxMemberUserEntityUser'
+                    'Nnx\Skeleton\Organization\Entity\Member' => 'NnxSkeletonOrganizationEntityMember',
+                    'Nnx\Skeleton\Organization\Entity\Organization' => 'NnxSkeletonOrganizationEntityOrganization',
+                    'Nnx\Skeleton\Organization\Entity\User' => 'NnxSkeletonOrganizationEntityUser',
+                    'Nnx\Skeleton\User\Entity\User' => 'NnxSkeletonUserEntityUser'
                 ],
             ],
         ],
