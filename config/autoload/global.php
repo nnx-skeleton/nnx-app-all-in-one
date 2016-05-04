@@ -16,10 +16,8 @@ return [
         'driver' => [
             'orm_default' => [
                 'drivers' => [
-                    'Nnx\Skeleton\Organization\Entity\Member' => 'NnxSkeletonOrganizationEntityMember',
-                    'Nnx\Skeleton\Organization\Entity\Organization' => 'NnxSkeletonOrganizationEntityOrganization',
-                    'Nnx\Skeleton\Organization\Entity\User' => 'NnxSkeletonOrganizationEntityUser',
-                    'Nnx\Skeleton\User\Entity\User' => 'NnxSkeletonUserEntityUser'
+                    'NnxSkeleton\Organization\Entity' => 'NnxSkeletonOrganizationEntity',
+                    'NnxSkeleton\User\Entity' => 'NnxSkeletonUserEntity'
                 ],
             ],
         ],
