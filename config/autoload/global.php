@@ -25,6 +25,14 @@ return [
             'filesystem' => [
                 'directory' => __DIR__. '/../../data/cache/DoctrineModule',
             ]
-        ]
+        ],
+        'eventmanager' => [
+            'orm_default' => [
+                'subscribers' => [
+                    'Nnx\Doctrine\DiscriminatorEntry\DiscriminatorEntryListener',
+                    //DiscriminatorEntryListener::class,
+                ],
+            ],
+        ],
     ],
 ];
