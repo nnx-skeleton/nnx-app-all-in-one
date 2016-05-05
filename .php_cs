@@ -1,6 +1,6 @@
 <?php
 $finder = Symfony\CS\Finder\DefaultFinder::create()
-    ->in('./src')
+    ->in('./module')
     ->in('./test')
     ->notPath('TestAsset')
     ->notPath('_files')
