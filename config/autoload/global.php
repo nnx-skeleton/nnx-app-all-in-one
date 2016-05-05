@@ -29,8 +29,7 @@ return [
         'eventmanager' => [
             'orm_default' => [
                 'subscribers' => [
-                    'Nnx\Doctrine\DiscriminatorEntry\DiscriminatorEntryListener',
-                    //DiscriminatorEntryListener::class,
+                    \Nnx\Doctrine\DiscriminatorEntry\DiscriminatorEntryListener::class,
                 ],
             ],
         ],
