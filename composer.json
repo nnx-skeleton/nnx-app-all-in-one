@@ -15,7 +15,8 @@
         "nnx-skeleton/member": "dev-master",
         "nnx-skeleton/core": "dev-master",
         "nnx-skeleton/user": "dev-master",
-        "nnx-skeleton/organization": "dev-master"
+        "nnx-skeleton/organization": "dev-master",
+        "nnx/doctrine": "0.1.*"
     },
 
     "require-dev": {
