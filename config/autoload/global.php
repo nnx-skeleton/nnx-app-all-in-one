@@ -3,7 +3,7 @@ return [
     'doctrine' => [
         'configuration' => [
             'orm_default' => [
-                'metadata_cache' => 'memcached'
+                'metadata_cache' => 'filesystem'
             ]
         ],
         'connection' => [
@@ -21,5 +21,10 @@ return [
                 ],
             ],
         ],
+        'cache' => [
+            'filesystem' => [
+                'directory' => __DIR__. '/../../data/cache/DoctrineModule',
+            ]
+        ]
     ],
 ];
