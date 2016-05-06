@@ -11,6 +11,7 @@ return array(
         'DoctrineModule',
         'DoctrineORMModule',
         'Application',
+        CustomerVendorMember\Member\Module::MODULE_NAME,
         NnxSkeletonMember\User\Module::MODULE_NAME,
         NnxSkeletonMember\Organization\Module::MODULE_NAME,
         NnxSkeletonMember\Member\Module::MODULE_NAME,
