@@ -14,7 +14,8 @@
         "doctrine/doctrine-orm-module": "0.*",
         "zendframework/zendframework": "~2.4.0",
         "customer-vendor-member/member": "dev-master",
-        "nnx/doctrine": "0.1.*"
+        "nnx/doctrine": "0.1.*",
+        "nnx/module-options": "0.1.*"
     },
     "minimum-stability": "dev",
     "require-dev": {
