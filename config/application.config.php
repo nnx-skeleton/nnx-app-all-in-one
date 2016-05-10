@@ -18,6 +18,7 @@ return array(
         NnxSkeletonMember\Core\Module::MODULE_NAME,
         Nnx\Doctrine\Module::MODULE_NAME,
         Nnx\ModuleOptions\Module::MODULE_NAME,
+        'Nnx\\Module'
     ),
 
     // These are various options for the listeners attached to the ModuleManager
