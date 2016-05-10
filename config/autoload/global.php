@@ -34,5 +34,11 @@ return [
                 ],
             ],
         ],
+        'entitymanager' => [
+            'customer_vendor_member' => [
+                'connection'    => 'orm_default',
+                'configuration' => 'orm_default'
+            ]
+        ]
     ],
 ];
