@@ -13,7 +13,7 @@
         "php": ">=5.5.0",
         "doctrine/doctrine-orm-module": "0.*",
         "zendframework/zendframework": "~2.4.0",
-        "customer-vendor-member/member": "dev-master",
+        "customer-vendor-member/member": "self.version",
         "nnx/doctrine": "0.1.*",
         "nnx/module-options": "0.1.*"
     },
